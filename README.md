@@ -8,6 +8,17 @@
 $ npm i browser-sync-middleware --save
 ```
 
+## Use middleware
+
+```js
+var browserSyncMiddleware = require('browser-sync-middleware');
+
+app.use(browserSyncMiddleware({
+    watch: ['./public/**']
+}))
+```
+
+
 ## License
 
 Copyright © 2014-2015 ysk2014
