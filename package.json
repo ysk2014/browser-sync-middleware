@@ -1,0 +1,26 @@
+{
+  "name": "browser-sync-middleware",
+  "version": "1.0.0",
+  "description": "This module is only concerned with the mechanisms to connect a browser client to a express server & receive updates.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/ysk2014"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ysk2014/browser-sync-middleware.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ysk2014/browser-sync-middlware/issues"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "1.6.1",
+    "ignore-by-default": "1.0.1",
+    "object-assign": "4.1.1"
+  }
+}
