@@ -18,6 +18,26 @@ app.use(browserSyncMiddleware({
 }))
 ```
 
+## Parameters
+
+-----
+
+## watch
+ (string or array of strings). Paths to files, dirs to be watched recursively, or glob patterns.
+
+## ignored
+
+(anymatch-compatible definition) Defines files/paths to be ignored. The whole relative or absolute path is tested, not just filename. If a function with two arguments is provided, it gets called twice per path - once with a single argument (the path), second time with two arguments (the path and the fs.Stats object of that path).
+
+## static
+this is a static path name. default `public`. for example:
+```js
+app.use(express.static(path.join(__dirname, 'static')));
+app.use(browserSyncMiddleware({
+    watch: ['./static/**']
+    static: 'static'
+}))
+```
 
 ## License
 
