@@ -40,8 +40,8 @@ var middleware = function(req,res,next) {
         if (type) {
             if (Buffer.isBuffer(args[0]) && req.method!='HEAD') {
                 args[0] = args[0].toString();
-                if (/<\/body>\n<\/html>$/i.test(args[0])) {
-                    var chunk = args[0].toString() + browserHelper(config);
+                if (/<\/html>[\t|\n|\r]*$/i.test(args[0])) {
+                    var chunk = args[0] + browserHelper(config);
                     res.set('Content-Length', chunk.length);
                     return end.call(this, chunk, args[1]);
                 } else {
