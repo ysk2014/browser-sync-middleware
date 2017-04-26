@@ -14,8 +14,15 @@
     "type": "git",
     "url": "git+https://github.com/ysk2014/browser-sync-middleware.git"
   },
+  "keywords": [
+    "browser-sync",
+    "middleware",
+    "auload",
+    "sse",
+    "webapp"
+  ],
   "bugs": {
-    "url": "https://github.com/ysk2014/browser-sync-middlware/issues"
+    "url": "https://github.com/ysk2014/browser-sync-middleware/issues"
   },
   "license": "ISC",
   "dependencies": {
