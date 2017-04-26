@@ -16,10 +16,10 @@
   },
   "keywords": [
     "browser-sync",
-    "middleware",
+    "livereload",
     "express",
     "sse",
-    "webapp"
+    "middleware"
   ],
   "bugs": {
     "url": "https://github.com/ysk2014/browser-sync-middleware/issues"
