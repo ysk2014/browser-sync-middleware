@@ -2,6 +2,10 @@
 
 > This module is only concerned with the mechanisms to connect a browser client to a express server & receive updates.
 
+[![NPM](https://nodei.co/npm/browser-sync-middleware.png?downloads=true&downloadRank=true)](https://nodei.co/npm-dl/browser-sync-middleware/)
+
+[![Build Status](https://travis-ci.org/intesso/browser-sync-middleware.png)](https://travis-ci.org/intesso/browser-sync-middleware)
+
 ## install
 
 ```sh
